@@ -285,7 +285,8 @@ module.exports = {
     new StyleLintPlugin({context: "src",
        configFile: {
           "rules": {
-              "color-no-invalid-hex": true
+              "color-no-invalid-hex": true,
+              "at-rule-name-case": "lower",
           }
       },
         files: './test.less',

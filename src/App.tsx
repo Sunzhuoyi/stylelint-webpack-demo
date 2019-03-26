@@ -1,5 +1,5 @@
 import * as React from "react";
-import "./App.css";
+import "./app.css";
 import {withRouter, Switch, Route, Redirect} from "react-router-dom";
 import "antd/dist/antd.css";
 
@@ -19,7 +19,7 @@ export default class App extends React.Component<AppProps, AppState> {
 
     render() {
         return (
-           <div>
+           <div className="Main">
                test for stylelint
            </div>
         );
